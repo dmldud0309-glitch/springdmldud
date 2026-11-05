@@ -9,10 +9,9 @@ public class UserMain {
         u1.setAge(20);
         System.out.println(u1.getName());
         System.out.println(u1.getAge());
-
+        
         User u2 = new User("김철수", 21);
         System.out.println(u2);
-
         User u3 = new User("김철수", 21);
         System.out.println(u2.equals(u3));
     }
